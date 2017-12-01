@@ -1,0 +1,197 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>游戏</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+	<style type="text/css">
+	<!--
+	*{padding: 0px; margin: 0px;}
+    	body{background: url("14.jpg") no-repeat; color: #FFF;}
+	a{font-size:30px; font-weight: bold; color:#FF0000;}
+	a:link{font-size:30px; font-weight: bold; color:#FF0000;}
+	a:visit{font-size:30px; font-weight: bold; color:#FF0000;}
+	a:hover{font-size:30px; font-weight: bold; color:#FF0000;}
+	a:active{font-size:30px; font-weight: bold; color:#FF0000;}
+	table{border-collapse: collapse; border: none;}
+	td{padding:5px;}
+	-->
+	</style>
+<script type="text/javascript">
+		function updateDomain(){
+			Authentication.CTCSetConfig('UserToken', 'ef659809001dae5df30e6babc179d92e');
+			Authentication.CTCSetConfig('EPGDomain', 'http://172.18.52.11:8080/index.htm');
+			//Authentication.CTCSetConfig('EPGDomainBackup', 'http://172.18.52.11:8080/index.htm');
+			Authentication.CTCSetConfig('EPGGroupNMB', '0');
+			Authentication.CTCSetConfig('UserGroupNMB', '0');
+			Authentication.CTCSetConfig('ChannelCount', '3');
+			Authentication.CTCSetConfig('ManagementDomain', 'ftp://administrator:iptv7f@172.18.1.4:21/qos?000120');
+			Authentication.CTCSetConfig('ServiceEntry','URL="http://epg.iptv.com/BTVEPGURL",HotKey="***",Desc="BTVEPGURL"');
+		}
+function a(){
+	var stbID = Authentication.CTCGetConfig('StbID');	window.location.href = "hexiaoru.htm";
+}
+
+function b(){
+	return 1;
+}
+	</script>
+</head>
+  
+<body  onLoad="updateDomain()"  style="background-color: #FFFFFF;">
+<table>
+	<tr>
+		<td colspan="4"><font size="+6" color="#FF0000">教育地址</font></td>
+	</tr>
+	<tr>
+		<td><a href="zjf.html">各地区现网</a></td>
+		<td><a href="http://10.0.1.12/yshj.jsp">演示环境</a></td>
+		<td><a href="http://10.0.1.12/app/2.html">图片效果</a></td>
+		<td><a href="qt.html">其他测试</a></td>
+
+	</tr>
+	<tr  height="100">
+		<td><a href="http://10.0.2.11:18080/1.html">浙江电信</a></td>
+		<td><a href="http://10.0.1.32:8080/1.html">湖北电信</a></td>
+		<td><a href="http://10.0.1.25:8080/1.html">北京歌华</a></td>
+		<td><a href="http://10.0.1.13:7040/1.html">江苏有线</a></td>
+		
+	</tr>
+	<tr height="100">
+		<td><a href="http://10.0.1.12/tjlt.htm">天津联通</a></td>
+		<td><a href="http://10.0.1.12/lnlt.htm">辽宁联通</a></td>
+		<td><a href="http://117.71.34.251:18080/tvplat5/test.jsp">安徽飞俊</a></td>
+		<td><a href="http://10.0.1.21:8080/1.html">重庆有线</a></td>
+	</tr>
+	<tr height="100">
+		<td><a href="http://10.0.2.91:8080/app/1.html">杭州游戏基地</a></td>
+		<td><a href="http://10.0.2.91:38080/1.html">深圳广信</a></td>
+		<td><a href="http://10.0.1.32:18080/1.html">东方有线</a></td>
+		<td><a href="http://10.0.1.13:8080/1.html">江苏电信公司</a></td>
+	</tr>
+	<tr height="100">
+		<td><a href="http://10.0.2.25:28080/1.jsp">贵州广电 </a></td>
+		
+	</tr>
+	<tr height="100">
+		<td><a href="hexiaoru.htm">-----何小茹</a></td>
+		<td><a href="guwenqi.htm">顾文琪</a></td>
+		<td><a href="songchao.htm">宋超</a></td>
+		<td><a href="chenlingguang.htm">陈灵光</a></td>
+		<td><a href="chentao.htm">陈涛</a></td>
+	</tr>
+</table>
+
+
+
+<!--
+  <table>
+	<tr>
+  		<td  colspan="3" >
+			<font size="+6" color="#FF0000">教育地址</font>---<a href="zjf.html"></a>---<a href="http://115.236.54.230:7050/app/1.html">外网</a>---<a href="http://115.236.54.230:58080/comicbook/comic_book_jsdg_bq/index.jsp">ttmq</a>
+		</td>
+<td width="310">colspan="3" <a href="http://10.0.1.55:8080/tvplat5/test.jsp">1.55棋牌</a></td>
+<td><a href = "http://10.0.1.32:8080/1.html">湖北电信</a></td>
+  	</tr>
+	<tr>
+	<td><a href = "http://10.0.1.13:7040/1.html">江苏有线</a></td>
+	
+	</tr>
+<tr>
+<td><a href = "http://122.224.212.89:8081/default/index.py?account=0571000448">浙江电信</a></td>
+<td><a href = "http://10.0.1.32:18080/1.html">东方有线</a></td>
+
+<td><a href = "http://10.0.1.25:8080/1.html">北京歌华</a></td>
+<td><a href = "http://10.0.1.21:8080/1.html">重庆有线</a></td>
+<td><a href = "http://121.43.96.116:18080/tvplat5/test.jsp">重庆有线public</a></td>
+
+<td><a href = "http://10.0.1.55:8080/tvplat5/test.jsp">上海电信公司</a></td>
+<td>
+                    <a href="songchao.htm">宋超</a>
+                     <a href="http://10.0.2.211:8080"></a>
+                </td> 
+</tr>
+
+
+  	<tr><td><a href = "http://10.0.1.12/tjlt.htm">天津联通</a></td>
+		<td width="210"><a href="http://10.0.2.41">10.0.2.41</a></td>
+<td             <td width="210"><a href="http://10.0.2.143:8080">10.0.2.143</a></td>
+  		<td width="210"><a href="http://115.236.54.230:8080/1.html">------</a></td>
+  		<td width="210"><a href="http://122.224.212.78:1091/DawnEDUGame/loginws.jsp?gm_info=<user_id>0571001017</user_id><ret_url>http://122.224.212.67:80/hw/game/market.py?ossUserId=0571001017</ret_url><game_id>G10116</game_id>"">浙江电信狼羊</a></td>
+  		<td width="220"></td>
+  	</tr>
+		
+	<tr>
+		
+  		<td>
+		<a href="http://10.0.2.41:8081/game/index.jsp">41game</a>
+                <a href="hexiaoru.htm">xxxx</a>
+		</td>
+		<td>
+		<a href="http://10.0.2.41:8081/game_zjdx/index.jsp">41game_zjdx</a>
+		</td>
+		<td>
+		<a href="http://10.0.2.41:8081/game/logingame.jsp?appCode=atm&INFO=%3CstbID%3E0111020100138000606E711111%3C%2FstbID%3E%3CuserName%3E03211111%3C%2FuserName%3E%3CbuinessID%3E3301002665222%3C%2FbuinessID%3E%3CuserToken%3E20130321110350%3C%2FuserToken%3E%3CareaCode%3E330100%3C%2FareaCode%3E%3CstbType%3E%3C%2FstbType%3E%3Cplatform%3E4%3C%2Fplatform%3E%3Cback_url%3Ehttp://10.0.2.41:8081/game/index.jsp?%3C%2Fback_url%3E">咸蛋超人</a>
+		</td>
+		<td>
+		<a href="wangm.htm">王曼</a>
+                 
+		</td>
+
+  		<td>
+  		<a href="http://119.167.218.134:8080/eduNewSDLT/login.jsp?UserID=202">山东联通</a>	
+  		</td>
+  	</tr>
+  	<tr>
+  		<td>
+  			<a href="http://10.0.1.12/app/2.html">图片效果</a>
+  		</td>
+  		<td>
+  			<a href="hexiaoru.htm">何小茹</a>
+  		</td>
+
+  		<td>
+  			<a href="test.htm"><font color="#00008B" >/平台</font></a><br>
+  		</td>
+  		<td>
+  			<a href="http://58.223.8.68/DawnEDUGame/index.jsp">现网/江苏电信游戏平台</a>
+  		</td>
+		<td></td>
+  	</tr>
+        <tr>
+                <td>
+                    <a href="zjf.html">zjf</a>
+                </td>  
+<td>
+                      <a href="http://10.0.1.22/DawnEDUGame/index.jsp"><font color="#00008B" >/华数游戏</font></a>
+                </td> 
+<td>
+                      <a href="http://10.0.1.22/DawnEDUWeb/index.jsp"><font color="#00008B" >/华数平台</font></a>
+                </td> 
+		<td>
+                    <a href="http://122.224.212.78:1091/DawnEDUGame/logininsect.jsp?gm_info=<user_id>0571001017</user_id><ret_url>http://122.224.212.67:80/hw/game/market.py?ossUserId=0571001017</ret_url><game_id>G10116</game_id>">浙江电信虫虫</a>
+                </td> 
+<td></td>
+
+        </tr>
+<tr>
+	<td><a href="http://115.236.54.230:8081/dgjy.jsp">公司演示环境</td>
+
+<td>
+                    <a href="http://58.223.7.68/eduNewJSDX/login.jsp?INFO=<userId>481:.4.208/23</userId><userToken>52351333/22;/554.2777666/24:44.;</userToken><key>2:2</key><TokenExpiretime>20120116053507</TokenExpiretime><GroupId>113</GroupId><userIP>180.97.169.57</userIP><petName></petName><areaCode>0009</areaCode><TradeId>null</TradeId><stbId>00100199007011400002D0154ADC9538</stbId><back_hall_url>http://58.223.251.139:8296/UserLogin4SP</back_hall_url>" class="STYLE11"><font color="#00008B" >南京电信现网</font></a>
+                </td> <td></td><td></td>
+</tr>
+
+<tr>
+	<td><a href="http://10.0.1.12/sx/go.jsp">小鸡快跑</a></td>
+<td>
+<a href="http://58.223.8.68/DawnEDUWeb/index.jsp">江苏电信平台现网</a>
+</td> 
+<td>
+<a href="http://58.53.214.41:9090/DawnEDUGame/logininsect.jsp?INFO=<stbID>0111020100138000606E72552F</stbID><userName>0220552F</userName><buinessID>330100266571</buinessID><userToken>20130225090126</userToken><areaCode>330100</areaCode><stbType></stbType><platform>4</platform><back_url>http://127.0.0.1:80/DawnEDUWeb/login!login.action?fromAppBack=appTypeCode:HS_HOT;page:1;appID:20</back_url><resolution>640*526</resolution><ismp4>0</ismp4><back_operator_url>http://125.210.228.112:9190/ddplay//userAction/toIndex.do!method=init;info.stbid=0111020100138000606E72552F;info.areaflag=330100;info.epgid=1;return_url=null</back_operator_url>">湖北电信虫虫</a>
+</td> <td></td><td></td>
+</tr>
+
+  </table>
+  -->
+</body>
+</html>

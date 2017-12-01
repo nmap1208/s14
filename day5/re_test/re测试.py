@@ -1,0 +1,15 @@
+#Auther nmap
+import re
+# res=re.match('^Chen\d','Chen321jialuo123')
+# print(res.group())
+# print(re.match('Chen\d','Chen321jialuo123'))
+# print(re.match('luo\d','Chen321jialuo123'))
+# print(re.search('luo\d','Chen321jialuo123'))
+# print(re.search('j.+2','Chen321jialuo123'))
+# print(re.search('j.+o','Chen321jialuo123'))
+# print(re.search('j.+o','Chen321jialuo123o'))
+# print(re.search('J[a-z]+o','Chen321JialuoJialuoJialuo123o'))
+# print(re.search('J[a-zA-Z]+o','Chen321JialuoJialuoJialuo123o'))
+# print(re.search('a?','alex'))
+# print(re.search('ab?','alex'))
+# print(re.search('a?','clex'))

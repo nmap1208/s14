@@ -1,0 +1,3 @@
+nmap 123
+zhangsan 123
+lisi 123

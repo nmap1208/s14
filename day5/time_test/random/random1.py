@@ -1,0 +1,16 @@
+#Auther nmap
+import random
+# print(random.random())
+# print(random.random())
+# print(random.random())
+print(random.choice('python'))
+print(random.choice('python'))
+print('str-----------')
+print(random.choice('zhe jiu shi'))
+print(random.choice('zhe jiu shi'))
+print('list-----------')
+print(random.choice([1,2,3,4]))
+print(random.choice([1,2,3,4]))
+print('tuple-----------')
+print(random.choice(('a','b','c','d')))
+print(random.choice(('a','b','c','d')))
